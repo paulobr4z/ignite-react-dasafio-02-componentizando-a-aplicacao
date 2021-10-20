@@ -1,7 +1,7 @@
 import { GenreResponseProps, MovieProps } from "../App";
 import { MovieCard } from "./MovieCard";
 
-interface testeProps {
+interface MovieDataProps {
   movies: MovieProps[];
   selectedGenre: GenreResponseProps;
 }
@@ -9,7 +9,7 @@ interface testeProps {
 export function Content({
   movies,
   selectedGenre
-}: testeProps) {
+}: MovieDataProps) {
   return(
     <div className="container">
       <header>
